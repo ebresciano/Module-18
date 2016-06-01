@@ -29,7 +29,8 @@
                                 <rect key="frame" x="8" y="28" width="584" height="453"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.51551672520000003" green="0.0" blue="0.0052931531090000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lax-IM-5kj" firstAttribute="centerX" secondItem="StP-9k-bKV" secondAttribute="centerX" id="Bq0-RJ-NVx"/>
                             <constraint firstItem="Lax-IM-5kj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Qfl-9K-ZYH"/>

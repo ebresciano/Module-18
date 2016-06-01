@@ -13,13 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardImageView: UIImageView!
 
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
     @IBAction func buttonTapped(sender: AnyObject) {
-        
+        CardController.drawCards(1) { (cards) in
+            guard let card = cards.first else { return }
+            ImageController.imageForURL(card.imageEndpoint, completion: { (image) in
+                guard let image = image  else { return }
+                self.cardImageView.image = image
+            })
+        }
     }
 
 }

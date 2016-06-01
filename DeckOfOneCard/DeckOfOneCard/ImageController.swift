@@ -19,10 +19,10 @@ class ImageController {
                 completion(image: nil)
                 return
             }
-        }
+        
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
-            <#code#>
-        })
-        completion(image: UIImage(data: data))
+            completion(image: UIImage(data: data))
+           })
+        }
     }
 }
